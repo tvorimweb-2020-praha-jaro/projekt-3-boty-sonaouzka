@@ -21,3 +21,32 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.zbozi {
+    font-family: 'Rubik', sans-serif;
+    font-size: 400;
+    width: 670px;
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2%;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+    margin: 0px auto;
+}
+
+.vizual {
+    position: relative;
+    width: 335px;
+    order: 1;
+    border-top-left-radius: 50%;
+}
+
+.detaily {
+    order: 2;
+    width: 335px;
+}
+
+.bota {
+    position: absolute;
+}
+
