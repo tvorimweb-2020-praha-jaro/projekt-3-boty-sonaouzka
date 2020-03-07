@@ -44,8 +44,8 @@ body {
     position: relative;
     width: 335px;
     order: 1;
-    border-top-left-radius: 50%;
     padding: 30px;
+    background: linear-gradient(135deg, #06d7c1,#06d7c1 60%,#50cc49);
 }
 
 .detaily {
@@ -101,4 +101,8 @@ body {
     border-radius: 7%;
     background-color: #f15f42;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.parametr {
+    text-transform: uppercase;
 }
