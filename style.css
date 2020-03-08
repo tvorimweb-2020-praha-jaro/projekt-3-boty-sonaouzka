@@ -47,7 +47,13 @@ body {
     padding: 30px;
     background: linear-gradient(135deg, #06d7c1,#06d7c1 60%,#50cc49);
 }
+.logo {
+   padding-bottom: 30px;
+} 
 
+.slogan {
+    color: white;
+}
 .detaily {
     order: 2;
     width: 335px;
@@ -61,7 +67,7 @@ body {
 }
 
 .nazev {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 500;
     text-transform: uppercase;
     margin: 0px;
@@ -78,6 +84,8 @@ body {
     right: 20px;
     bottom: 30px;
     text-align: right;
+    color: white;
+    line-height: 150%;
 }
 
 .zaruka {
@@ -86,8 +94,8 @@ body {
 }
 
 .cena {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .akce a {
@@ -105,4 +113,15 @@ body {
 
 .parametr {
     text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.produkt {
+    color: grey;
+}
+
+.popis {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #06d7c1;
 }
