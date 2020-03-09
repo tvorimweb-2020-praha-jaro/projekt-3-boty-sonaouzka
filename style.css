@@ -46,6 +46,9 @@ body {
     order: 1;
     padding: 30px;
     background: linear-gradient(135deg, #06d7c1,#06d7c1 60%,#50cc49);
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+
 }
 .logo {
    padding-bottom: 30px;
