@@ -61,6 +61,7 @@ body {
     order: 2;
     width: 335px;
     padding: 30px;
+    position: relative;
 }
 
 .bota {
@@ -84,7 +85,7 @@ body {
 
 .cenovka {
     position: absolute;
-    right: 20px;
+    right: 30px;
     bottom: 30px;
     text-align: right;
     color: white;
@@ -112,6 +113,9 @@ body {
     border-radius: 7%;
     background-color: #f15f42;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
 }
 
 .parametr {
