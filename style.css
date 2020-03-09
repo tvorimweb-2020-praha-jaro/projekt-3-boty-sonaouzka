@@ -124,4 +124,20 @@ body {
 .popis {
     padding-bottom: 30px;
     border-bottom: 1px solid #06d7c1;
+    margin-bottom: 30px;
+}
+
+.vybrana {
+    border-radius: 50%;
+    border: 1px solid #f15f42;
+    color: #f15f42;
+}
+
+.velikosti li {
+    display: inline-block;
+    padding: 0.8em;
+}
+
+ul {
+    padding-left: 0px;
 }
